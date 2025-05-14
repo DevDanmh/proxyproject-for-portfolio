@@ -4,10 +4,17 @@
       "source": "/flight-tracker/:match*",
       "destination": "https://airportflights-app.vercel.app/:match*"
     },
-    { "source": "/", "destination": "https://dan-portfolio-six.vercel.app" },
+    {
+      "source": "/blog/:match*",
+      "destination": "https://dan-portfolio-six.vercel.app/index.html"
+    },
     {
       "source": "/:match*",
       "destination": "https://dan-portfolio-six.vercel.app/:match*"
+    },
+    {
+      "source": "/",
+      "destination": "https://dan-portfolio-six.vercel.app"
     }
   ]
 }
