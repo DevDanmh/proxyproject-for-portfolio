@@ -17,12 +17,12 @@
       "destination": "https://dan-portfolio-six.vercel.app/index.html"
     },
     {
-      "source": "/",
-      "destination": "https://dan-portfolio-six.vercel.app"
-    },
-    {
       "source": "/:match*",
       "destination": "https://dan-portfolio-six.vercel.app/:match*"
+    },
+    {
+      "source": "/",
+      "destination": "https://dan-portfolio-six.vercel.app"
     }
   ]
 }
