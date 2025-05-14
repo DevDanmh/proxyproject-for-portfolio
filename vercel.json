@@ -1,6 +1,5 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" },
     {
       "source": "/flight-tracker/:match*",
       "destination": "https://airportflights-app.vercel.app/:match*"
@@ -8,6 +7,7 @@
     {
       "source": "/:match*",
       "destination": "https://dan-portfolio-six.vercel.app/:match*"
-    }
+    },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
