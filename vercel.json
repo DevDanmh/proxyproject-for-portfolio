@@ -5,6 +5,10 @@
       "destination": "https://airportflights-app.vercel.app/:match*"
     },
     {
+      "source": "/api/:match*",
+      "destination": "/api/:match*"
+    },
+    {
       "source": "/blog/:match*",
       "destination": "https://dan-portfolio-six.vercel.app/index.html"
     },
