@@ -18,7 +18,7 @@
     },
     {
       "source": "/:match*",
-      "destination": "https://dan-portfolio-six.vercel.app/:match*"
+      "destination": "https://dan-portfolio-six.vercel.app/index.html:match*"
     },
     {
       "source": "/",
