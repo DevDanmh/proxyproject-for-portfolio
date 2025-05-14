@@ -4,6 +4,7 @@
       "source": "/flight-tracker/:match*",
       "destination": "https://airportflights-app.vercel.app/:match*"
     },
+    { "source": "/", "destination": "https://dan-portfolio-six.vercel.app" },
     {
       "source": "/:match*",
       "destination": "https://dan-portfolio-six.vercel.app/:match*"
