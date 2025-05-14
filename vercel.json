@@ -9,6 +9,10 @@
       "destination": "https://student-teacher-login-app.vercel.app/:match*"
     },
     {
+      "source": "/angular-crud-app/:match*",
+      "destination": "https://angular-student-crud-app.vercel.app/:match*"
+    },
+    {
       "source": "/blog/:match*",
       "destination": "https://dan-portfolio-six.vercel.app/index.html"
     },
