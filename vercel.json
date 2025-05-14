@@ -6,7 +6,7 @@
     },
     {
       "source": "/:match*",
-      "destination": "dan-portfolio-six.vercel.app/:match*"
+      "destination": "https://dan-portfolio-six.vercel.app/:match*"
     }
   ]
 }
