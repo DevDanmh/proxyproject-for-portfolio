@@ -1,5 +1,6 @@
 {
   "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" },
     {
       "source": "/flight-tracker/:match*",
       "destination": "https://airportflights-app.vercel.app/:match*"
