@@ -6,7 +6,7 @@
     },
     {
       "source": "/login-web-app/:match*",
-      "destination": "https://student-teacher-login-app.vercel.app//:match*"
+      "destination": "https://student-teacher-login-app.vercel.app/:match*"
     },
     {
       "source": "/blog/:match*",
